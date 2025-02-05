@@ -1,0 +1,7 @@
+services:
+  doc2pdf:
+    container_name: doc2pdf
+    build: .
+    volumes:
+      - ./input:/input
+      - ./output:/output
